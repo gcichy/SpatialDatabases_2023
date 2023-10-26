@@ -1,3 +1,5 @@
+-- command used to import data
+--shp2pgsql.exe "C:\temp\T2019_KAR_GERMANY\T2019_KAR_BUILDINGS.shp" buildings_2019 | psql -p 5432 -h localhost -U postgres -d cw3
 CREATE EXTENSION postgis;
 
 --1
